@@ -1,0 +1,164 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="Content/img/banner.gif" alt=""></div>
+        <div class="swiper-slide"><img src="Content/img/banner.gif" alt=""></div>
+        <div class="swiper-slide"><img src="Content/img/banner.gif" alt=""></div>
+        <div class="swiper-slide"><img src="Content/img/banner.gif" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<ul class="list1">
+    <li>
+        <i class="icon iconfont icon-goods"></i>
+        <span>车商城</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-present" style="background:#FF9D3D"></i>
+        <span>分期购车</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-yijianfankui" style="background:#FF6565"></i>
+        <span>团购活动</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-taxi" style="background:#4183FF"></i>
+        <span>找二手车</span>
+    </li>
+
+</ul>
+<div class="tit1">
+    <img src="Content/img/bg.gif">
+    <h1>保养预约<span>68</span>折 爱车浪漫购<b>约</b></h1>
+</div>
+<div class="tit2">车主服务</div>
+<ul class="list2">
+    <li>
+        <i class="icon iconfont icon-edit" style="color:#F75757"></i>
+        <span>油卡充值</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-iconfont5" style="color:#0AA570"></i>
+        <span>低价保险</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-copy" style="color:#25AF80"></i>
+        <span>4s店保养</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-focus" style="color:#10A773"></i>
+        <span>品质轮胎</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-shop" style="color:#FF4E00"></i>
+        <span>车品商城</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-taxi" style="color:#76A6FF"></i>
+        <span>洗车</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-recharge" style="color:#FF4E00"></i>
+        <span>违章代缴 </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-wodedingdan" style="color:#E94645"></i>
+        <span>免费测评</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-shouhuodizhi" style="color:#4183FF"></i>
+        <span>查周边</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-wodedingdan" style="color:#0AA570"></i>
+        <span>车主卡</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-wodeyouhuiquan" style="color:#4183FF"></i>
+        <span>领卷保养</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-qrcode" style="color:#B1B1B1"></i>
+        <span>全部</span>
+    </li>
+</ul>
+<div class="box1">
+    <p>
+        <span>限时抢购</span>
+        <span><b>13</b>:<b>13</b>:<b>13</b></span>
+    </p>
+    <div class="box2">
+        <dl>
+            <dt><img src="Content/img/bb.gif"></dt>
+            <dd>
+                <h3>补胎工具简易套装</h3>
+                <h4><span>￥9.9元</span><span>28元</span></h4>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="Content/img/cc.gif" alt=""></dt>
+            <dd>
+                <h3>车用椅背挂钩</h3>
+                <h4><span>￥9.9元</span><span>28元</span></h4>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="box4">
+    <div class="tit3">
+        <span>活动专区</span>
+                <span>
+                    更多活动
+                    <i class="icon iconfont icon-right"></i>
+                </span>
+    </div>
+    <div class="box5">
+        <dl>
+            <dd>
+                <h3>测身价炫富</h3>
+                <p>身价大PK</p>
+            </dd>
+            <dt>
+                <img src="Content/img/pic1.gif" alt="">
+            </dt>
+        </dl>
+        <dl>
+            <dd>
+                <h3>全场0利率</h3>
+                <p>购车无压力</p>
+            </dd>
+            <dt>
+                <img src="Content/img/pic2.gif" alt="">
+            </dt>
+        </dl>
+        <dl>
+            <dd>
+                <h3>好车分期</h3>
+                <p>定制专属方案</p>
+            </dd>
+            <dt>
+                <img src="Content/img/pic3.gif" alt="">
+            </dt>
+        </dl>
+    </div>
+</div>
+<div class="box4">
+    <div class="tit3">
+        <span>猜你喜欢</span>
+                <span>
+                    更多
+                    <i class="icon iconfont icon-right"></i>
+                </span>
+    </div>
+    <div class="box6">
+        <dl ng-repeat="list in lists">
+            <dt>
+                <img ng-src="{{list.src}}">
+            </dt>
+            <dd>
+                <h4>{{list.tit1}}</h4>
+                <p>{{list.tit2}}</p>
+                <h5><span>{{list.price1}}</span><span>{{list.price2}}</span></h5>
+            </dd>
+        </dl>
+    </div>
+</div>
